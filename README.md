@@ -1,11 +1,11 @@
 # grid
-Barebones CSS/SCSS responsive grid system
-_Less than 2kb_
+Barebones CSS/SCSS responsive grid system for your small projects.
 
 ## Features ##
 * 12 columns and offsets
 * Containers, rows, and clearfixes
 * Floats
+* _weighs less than 2kb_
 
 ## SCSS Options ##
 * Set amount of columns
