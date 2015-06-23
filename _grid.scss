@@ -85,7 +85,7 @@ $gutter: 15px;
 }
 
 @for $c from 1 through $columns {
-	.csm-#{$c} {
+	.col-#{$c} {
 		width: percentage($c / $grid );
 		@extend %c;
 		@extend %gridbreak;
