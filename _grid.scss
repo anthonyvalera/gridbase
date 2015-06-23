@@ -13,25 +13,25 @@ $main-break: xsmall;
 
 //grid settings
 $grid: 12;
-$columns: 1 2 3 4 5 6 7 8 9 10 11 12;
+$columns: 12;
 $gutter: 15px;
 
 @mixin breakpoint($point, $type) {
 
 	@if $point == large {
-		@media screen and (#{$type}-width: $break-large) { @content; }
+		@media all and (#{$type}-width: $break-large) { @content; }
 	}
 
 	@else if $point == medium {
-		@media screen and (#{$type}-width: $break-medium) { @content; }
+		@media all and (#{$type}-width: $break-medium) { @content; }
 	}
 
 	@else if $point == small {
-		@media screen and (#{$type}-width: $break-small) { @content; }
+		@media all and (#{$type}-width: $break-small) { @content; }
 	}
 
 	@else if $point == xsmall {
-		@media screen and (#{$type}-width: $break-xsmall) { @content; }
+		@media all and (#{$type}-width: $break-xsmall) { @content; }
 	}
 }
 
@@ -58,15 +58,15 @@ $gutter: 15px;
 	margin-right: auto;
 	margin-left: auto;
 
-	@media screen and (min-width: $break-small) and (max-width: $break-medium) {
+	@media all and (min-width: $break-small) and (max-width: $break-medium) {
 		width: 750px;
 	}
 
-	@media screen and (min-width: $break-medium) and (max-width: $break-large) {
+	@media all and (min-width: $break-medium) and (max-width: $break-large) {
 		width: 970px;
 	}
 
-	@media screen and (min-width: $break-large) {
+	@media all and (min-width: $break-large) {
 		width: 1170px;
 	}
 }
@@ -84,7 +84,7 @@ $gutter: 15px;
 	float:left;
 }
 
-@each $c in $columns{
+@for $c from 1 through $columns {
 	.csm-#{$c} {
 		width: percentage($c / $grid );
 		@extend %c;
