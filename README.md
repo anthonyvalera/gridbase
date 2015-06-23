@@ -16,7 +16,7 @@ This 'grid' is a barebones grid system for your projects. It weighs less than 2k
 The main break is set at 768px, at which point, the grid falls back to single column rows.
 
 ### Directions ##
-Add minified version to the top of your css file or include the partial grid.scss in your sass files.
+Add minified version to the top of your css file or include the partial _grid.scss in your sass files.
 
-
+#### Notes ####
 Feel free to add/contribute. It's something I've used locally and created for small projects.
