@@ -4,7 +4,7 @@ $break-large: 1200px;
 $break-medium: 992px;
 $break-small: 768px;
 $break-xsmall: 480px;
-$main-break: medium;
+$main-break: xsmall;
 
 // grid settings
 $grid: 12;
@@ -60,7 +60,7 @@ $gutter: 15px;
 }
 
 @each $c in $columns{
-	.csm-#{$c} {
+	.c-#{$c} {
 		width: percentage($c / $grid );
 		@extend %c;
 		@extend %gridbreak;
