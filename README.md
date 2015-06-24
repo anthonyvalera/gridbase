@@ -34,7 +34,7 @@ Here's an example:
 The standard padding (gutter) between columns is 15px. This gives each row -15px margin to the left and right side.
 
 ## Directions ##
-Add the minified version to the top of your css file or include the partial _grid.scss in your scss files. I would not recommend adding this like an external css file.
+Add the minified version to the top of your css file or include the partial _grid.scss in your scss files. I wouldn't recommend adding this like an external css file, but your choice.
 
 #### Notes ####
 Feel free to add/contribute. It's something I've used locally and created for small projects.
