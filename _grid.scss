@@ -52,12 +52,11 @@ $gutter: 15px;
 	}
 }
 
-.container {
-	padding-right:#{$gutter};
-	padding-left:#{$gutter};
-	margin-right: auto;
-	margin-left: auto;
+.container, .container-fluid {
+	@extend %container-styles;
+}
 
+.container {
 	@media all and (min-width: $break-small) and (max-width: $break-medium) {
 		width: 750px;
 	}
@@ -69,6 +68,13 @@ $gutter: 15px;
 	@media all and (min-width: $break-large) {
 		width: 1170px;
 	}
+}
+
+%container-styles {
+	padding-right: #{$gutter};
+	padding-left: #{$gutter};
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .row {
