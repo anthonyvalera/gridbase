@@ -1,6 +1,8 @@
 # gridbase
 Barebones CSS/SCSS responsive grid system for your small projects.
 
+[Here is a demo](http://codepen.io/anthonyvalera/pen/YXEjOp)
+
 ## Features ##
 * 12 columns and offsets
 * Containers, rows, and clearfixes
