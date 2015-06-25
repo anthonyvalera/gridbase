@@ -7,7 +7,7 @@ Barebones CSS/SCSS responsive grid system for your small projects.
 * 12 columns and offsets
 * Containers, rows, and clearfixes
 * Floats! _wow!_
-* _weighs less than 2kb_
+* 547 bytes compressed _1.71kb minified_
 
 ## SCSS Options ##
 * Set amount of columns
