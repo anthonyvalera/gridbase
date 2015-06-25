@@ -1,4 +1,4 @@
-# grid
+# gridbase
 Barebones CSS/SCSS responsive grid system for your small projects.
 
 ## Features ##
@@ -25,7 +25,7 @@ Here's an example:
 <section class="container">
 	<div class="row">
 		<div class="col-8 off-2">
-			<h1>grid</h1>
+			<h1>gridbase</h1>
 			<p>Barebones CSS/SCSS responsive grid system for your small projects.</p>
 		</div>
 	</div>
