@@ -41,7 +41,7 @@ $gutter: 15px;
 	box-sizing: border-box;
 }
 
-.container, .row, .clear {
+.container, .row {
 	&:before, &:after {
 		content: " ";
 		display: table;
@@ -91,23 +91,23 @@ $gutter: 15px;
 }
 
 @for $c from 1 through $columns {
-	.col-#{$c} {
+	.c#{$c} {
 		width: percentage($c / $grid );
 		@extend %c;
 		@extend %gridbreak;
 	}
 
-	.off-#{$c} {
+	.o#{$c} {
 		margin-left: percentage($c / $grid );
 		@extend %offbreak;
 	}
 }
 
-.pull-left {
+.left{
 	float: left;
 }
 
-.pull-right {
+.right {
 	float: right;
 }
 
