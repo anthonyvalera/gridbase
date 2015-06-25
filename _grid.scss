@@ -112,7 +112,7 @@ $gutter: 15px;
 }
 
 %gridbreak {
-	@include breakpoint($main-break, max) { float: none; width: inherit; }
+	@include breakpoint($main-break, max) { float: none; width: inherit; overflow: auto;}
 }
 
 %offbreak {
