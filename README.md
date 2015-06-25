@@ -4,7 +4,7 @@ Barebones CSS/SCSS responsive grid system for your small projects.
 ## Features ##
 * 12 columns and offsets
 * Containers, rows, and clearfixes
-* Floats!
+* Floats! _wow!_
 * _weighs less than 2kb_
 
 ## SCSS Options ##
@@ -12,7 +12,7 @@ Barebones CSS/SCSS responsive grid system for your small projects.
 * Gutter padding/margin
 * Breakpoints
 
-This 'grid' is a barebones grid system for your projects. It weighs less than 2kb and provides very basic column/grid/row support.
+gridbase is a barebones base grid system for your projects. It weighs less than 2kb and provides very basic column/grid/row support.
 The main break is set at 768px, at which point, the grid falls back to single column rows.
 
 **Columns** are defined like `col-4` and should always be wrapped in a `row`. 
