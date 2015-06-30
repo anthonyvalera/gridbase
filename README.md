@@ -6,8 +6,7 @@ Barebones CSS/SCSS responsive grid system for your small projects.
 ## Features ##
 * 12 columns and offsets
 * Containers, rows, and clearfixes
-* Floats! _wow!_
-* 547 bytes compressed _1.71kb minified_
+* <550 bytes compressed _< 1.7kb minified_
 
 ## SCSS Options ##
 * Set amount of columns
@@ -17,9 +16,9 @@ Barebones CSS/SCSS responsive grid system for your small projects.
 gridbase is a barebones base grid system for your projects. It weighs less than 2kb and provides very basic column/grid/row support.
 The main break is set at 768px, at which point, the grid falls back to single column rows.
 
-**Columns** are defined like `col-4` and should always be wrapped in a `row`. 
-**Containers** wrap content into smaller breakpoints based on viewport (good for centering content). 
-**Column offsets** can be set like `off-3` where the number is the amount of columns you're moving over. 
+**Columns** are defined like `col-4` and should always be wrapped in a `row`.
+**Containers** wrap content into smaller breakpoints based on viewport (good for centering content).
+**Column offsets** can be set like `off-3` where the number is the amount of columns you're moving over.
 
 Here's an example:
 
