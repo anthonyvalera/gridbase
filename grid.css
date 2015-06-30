@@ -3,15 +3,23 @@
  ****** gridbase - lightweight css responsive grid system *******
  *
  **************************************************************************/
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-.container:before, .container:after, .row:before, .row:after, .clear:before, .clear:after {
+.container:before, .container:after,
+.row:before,
+.row:after,
+.clear:before,
+.clear:after {
   content: " ";
   display: table; }
-.container:after, .row:after, .clear:after {
+.container:after,
+.row:after,
+.clear:after {
   clear: both; }
 
 @media all and (min-width: 768px) and (max-width: 992px) {
@@ -24,7 +32,8 @@
   .container {
     width: 1170px; } }
 
-.container, .container-fluid {
+.container,
+.container-fluid {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
