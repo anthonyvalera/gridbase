@@ -24,12 +24,12 @@ Here's an example:
 
 ```html
 <section class="container">
-	<div class="row">
-		<div class="col-8 off-2">
-			<h1>gridbase</h1>
-			<p>Barebones CSS/SCSS responsive grid system for your small projects.</p>
-		</div>
-	</div>
+    <div class="row">
+        <div class="col-8 off-2">
+            <h1>gridbase</h1>
+            <p>Barebones CSS/SCSS responsive grid system for your small projects.</p>
+        </div>
+    </div>
 </section>
 ```
 The standard padding (gutter) between columns is 15px. This gives each row -15px margin to the left and right side.
